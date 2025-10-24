@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const name = document.getElementById('contact-name').value.trim();
-    alert('Gracias ' + (name || 'amigo') + ', tu mensaje ha sido recibido (demo).');
+    alert('Gracias ' + (name || 'amigo') + ', tu mensaje ha sido recibido.');
     contactForm.reset();
   });
 });
